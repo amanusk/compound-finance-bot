@@ -37,13 +37,17 @@ public class TokenUtils {
 		tokenDecimalMap.put(Token.WBTC, 18);
 		
 		tokenSymbolMap.put(Token.USDC, "0x39aa39c021dfbae8fac545936693ac917d5e7563".toLowerCase());
-		tokenDecimalMap.put(Token.WBTC, 18);
+		tokenDecimalMap.put(Token.USDC, 18);
+		
+		tokenSymbolMap.put(Token.USDT, "0xf650c3d88d12db855b8bf7d11be6c55a4e07dcc9".toLowerCase());
+		tokenDecimalMap.put(Token.USDT, 18);
 	}
 	
 	public enum Token {
 		ETH,
 		DAI,
 		USDC,
+		USDT,
 		WBTC,
 		BAT,
 		ZRX,
